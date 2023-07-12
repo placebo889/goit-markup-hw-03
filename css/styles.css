@@ -91,6 +91,11 @@ text-decoration: none;
     gap: 40px;
 }
 
+.listf{
+    display: flex;
+    gap: 24px;
+}
+
 .icon{
     display: flex;
     gap: 24px;
@@ -242,6 +247,8 @@ background-color:var(--offer-color)
 
 .sect{
     background-color: #F4F4FD;
+    padding: 120px 0;
+
 }
 
 .ourteam{
@@ -250,7 +257,8 @@ background-color:var(--offer-color)
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color:var(--offer-color)
+    color:var(--offer-color);
+    margin-bottom: 72px;
 }
 
 .imag{
