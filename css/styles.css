@@ -46,6 +46,10 @@ img {
     color: var(--useful-color);
 }
 
+.logod{
+    display: flex;
+}
+
 .container {
     width: 1158px;
     margin: 0 auto;
@@ -70,6 +74,8 @@ img {
     text-transform: uppercase;
     color:var(--primary-accent-color);
     text-decoration: none;
+    margin-right: 76px;
+
 }
 .link{
 text-decoration: none;
@@ -77,6 +83,8 @@ text-decoration: none;
 
 .list {
     list-style: none;
+    display: flex;
+    gap: 40px;
 }
 
 .list .src {
@@ -86,6 +94,7 @@ text-decoration: none;
     letter-spacing: 0.02em;
     color: var(--offer-color);
     text-decoration: none;
+    padding: 24px 0;
 }
 
 .list .src:hover,
