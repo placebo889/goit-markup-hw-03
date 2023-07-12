@@ -81,10 +81,23 @@ img {
 text-decoration: none;
 }
 
+.tsec{
+    padding-bottom: 120px;
+}
+
 .list {
     list-style: none;
     display: flex;
     gap: 40px;
+}
+
+.icon{
+    display: flex;
+    gap: 24px;
+}
+
+.layb{
+    width: calc((100% - 48px) / 3);
 }
 
 .list .src {
@@ -167,6 +180,7 @@ background-color:#404BBF;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color:var(--offer-color);
+    margin-bottom: 72px;
 
 }
 
