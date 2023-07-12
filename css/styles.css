@@ -100,6 +100,23 @@ text-decoration: none;
     width: calc((100% - 3 * 16px) / 3);
 }
 
+.ssec{
+    padding: 120px 0;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 .list .src {
     font-weight: 500;
     font-size: 16px;
@@ -113,6 +130,15 @@ text-decoration: none;
 .list .src:hover,
 .list .src:focus {
     color: #404bbf;
+}
+
+.listc{
+    display: flex;
+    gap: 24px;
+}
+
+.felem{
+    width: calc((100% - 72px) / 4);
 }
 
 .mheader {
@@ -204,6 +230,7 @@ background-color:var(--offer-color)
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--offer-color);
+    margin-bottom: 8px;
 }
 
 .parag {
