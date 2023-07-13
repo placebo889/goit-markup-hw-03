@@ -325,7 +325,8 @@ padding: 100px 0;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color:var(--offer-color)
+    color:var(--offer-color);
+    margin-bottom: 8px;
 }
 
 .appb{
@@ -349,6 +350,7 @@ padding: 100px 0;
 
 .listl{
     display: flex;
+    flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
 
