@@ -75,7 +75,8 @@ img {
     color:var(--primary-accent-color);
     text-decoration: none;
     margin-right: 76px;
-
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .link{
 text-decoration: none;
@@ -221,12 +222,15 @@ background-color:#404BBF;
 }
 
 .down{
-background-color:var(--offer-color)
+background-color:var(--offer-color);
+padding: 100px 0;
+
 }
 .para{
     line-height: 1.5;
     color:var(--paragraph-color);
     letter-spacing: 0.02em;
+    max-width: 264px;
 }
 
 .studioo{
