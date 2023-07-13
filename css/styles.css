@@ -9,6 +9,13 @@
     --button-color:#e7e9fc;
 }
 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
 body{
 font-family: 'Roboto', sans-serif;
 color:var(--useful-color);
@@ -17,6 +24,19 @@ background-color:var(--background-color)
 
 img {
     display: block;
+}
+
+ul 
+{
+    padding-left: 0;
+    margin-left: 0;
+    list-style-type: none;
+}
+
+li{
+        padding-left: 0;
+        margin-left: 0;
+        list-style-type: none;
 }
 
 .visually-hidden {
@@ -50,7 +70,7 @@ img {
     color: var(--useful-color);
 }
 
-.logod{
+.logodiv{
     display: flex;
 }
 
@@ -78,12 +98,21 @@ img {
     text-transform: uppercase;
     color:var(--primary-accent-color);
     text-decoration: none;
-    display: inline-block;
+    display: flex;
     margin-right: 76px;
 }
 
 .logof {
-    display: inline-block;
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-accent-color);
+    text-decoration: none;
+    display: flex;
+    margin-right: 76px;
     margin-bottom: 16px;
 }
 
@@ -91,13 +120,8 @@ img {
 text-decoration: none;
 }
 
-.tsec{
+.sectiont{
     padding-bottom: 120px;
-}
-
-ul{
-    padding-left: 0;
-    margin-left: 0;
 }
 
 .list {
@@ -118,10 +142,10 @@ ul{
 
 .layb{
   width: calc((100% - 3 * 16px) / 3);
-    margin-right: 350px;
+
 }
 
-.ssec{
+.sections{
     padding: 120px 0;
 }
 
@@ -138,13 +162,8 @@ ul{
     overflow: hidden;
 }
 
-.list .src {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--offer-color);
-    text-decoration: none;
+.src {
+
     padding: 24px 0;
 }
 
@@ -166,7 +185,7 @@ ul{
     border-bottom: 1px solid #e7e9fc;
 }
 
-.purch{
+.sectionf{
     background-color:var(--offer-color);
     padding: 188px 0;
 }
@@ -182,7 +201,7 @@ ul{
 
 }
 
-.customb{
+.custombtn{
     background-color: #4D5AE5;
     display: block;
     min-width: 169px;
@@ -273,7 +292,7 @@ padding: 100px 0;
     color: var(--useful-color)
 }
 
-.sect{
+.sectionff{
     background-color: #F4F4FD;
     padding: 120px 0;
 
