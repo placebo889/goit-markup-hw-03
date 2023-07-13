@@ -85,6 +85,11 @@ text-decoration: none;
     padding-bottom: 120px;
 }
 
+ul{
+    padding-left: 0;
+    margin-left: 0;
+}
+
 .list {
     list-style: none;
     display: flex;
