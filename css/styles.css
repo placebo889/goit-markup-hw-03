@@ -32,6 +32,11 @@ li{
         list-style-type: none;
 }
 
+
+h1, h2, h3, p{
+    margin: 0;
+}
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -48,7 +53,6 @@ li{
 .navigation {
     display: flex;
     align-items: center;
-    margin-bottom: 24px;
 }
 
 .comm {
