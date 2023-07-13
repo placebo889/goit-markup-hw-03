@@ -112,6 +112,7 @@ ul{
 
 .layb{
   width: calc((100% - 3 * 16px) / 3);
+    margin-right: 350px;
 }
 
 .ssec{
