@@ -53,12 +53,16 @@ h1, h2, h3, p{
 .navigation {
     display: flex;
     align-items: center;
+    padding-top:15px;
+    padding-bottom: 15px;
 }
 
 .comm {
     font-style: normal;
     margin: 0 auto;
     margin-right: 76px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     align-items: right;
 }
 
