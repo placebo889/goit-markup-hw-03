@@ -125,7 +125,7 @@ h1, h2, h3, p{
 text-decoration: none;
 }
 
-.sectiont{
+.section-third{
     padding-bottom: 120px;
 }
 
@@ -150,7 +150,7 @@ text-decoration: none;
 
 }
 
-.sections{
+.section-second{
     padding: 120px 0;
 }
 
@@ -194,7 +194,7 @@ text-decoration: none;
     border-bottom: 1px solid #e7e9fc;
 }
 
-.sectionf{
+.section-first{
     background-color:var(--offer-color);
     padding: 188px 0;
 }
@@ -273,7 +273,7 @@ background-color:var(--offer-color);
 padding: 100px 0;
 
 }
-.para{
+.footer-parag{
     line-height: 1.5;
     color:var(--paragraph-color);
     letter-spacing: 0.02em;
@@ -301,7 +301,7 @@ padding: 100px 0;
     color: var(--useful-color)
 }
 
-.sectionff{
+.section-fourth{
     background-color: #F4F4FD;
     padding: 120px 0;
 
